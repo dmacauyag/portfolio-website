@@ -1,13 +1,47 @@
-// Variables
+// -------------------------------------------------
+// Site Specific Variables
+// -------------------------------------------------
 
-// Gray and Brand Colors for use across theme
+// Example, group similar variables, only use variables for common colours & values
+// $all-lowercase: value;
 
-$theme-primary:    #fed136;
-$theme-danger:     #e74c3c;
+$font-primary: 'Raleway', Helvetica, Arial, sans-serif;
+$font-secondary: 'Roboto', Helvetica, Arial, sans-serif;
+$color-primary: #199EB8;
+$color-secondary: #E04F00;
 
-$gray-base:			#000 !default;
-$gray-darker:		lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:			lighten($gray-base, 20%) !default;   // #333
-$gray:				lighten($gray-base, 33.5%) !default; // #555
-$gray-light:		lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:		lighten($gray-base, 93.5%) !default; // #eee
+$font-size-x-large: 62px;
+$font-size-large: 30px;
+$font-size-medium: 26px;
+$font-size-sm-medium: 24px;
+$font-size-small: 18px;
+
+$line-height: 1.55;
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $font-primary;
+}
+
+p{
+	line-height: $line-height;
+	color: #333;
+	font-size: 400;
+	font-family: $font-primary;
+}
+
+h1{
+	font-size: $font-size-x-large;
+}
+
+h2{
+	font-size: $font-size-large;
+	margin-bottom: 65px;
+}
+
+h3{
+	font-size: $font-size-sm-medium;
+}
+
+h4{
+	font-size: $font-size-small;
+}
