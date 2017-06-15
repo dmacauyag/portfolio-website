@@ -3,6 +3,28 @@ header .header-content .header-content-inner p {
   font-size: 24px;
 }
 
+.portfolio-btn-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.portfolio-btn {
+  border: 2px solid #fff;
+}
+
+.portfolio-btn:focus {
+  outline: none;
+}
+
+.portfolio-btn:hover {
+  color: #F2784B;
+}
+
+.portfolio-btn:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
 .summary-text {
   font-weight: 100;
 }
