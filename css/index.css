@@ -66,67 +66,23 @@ header .header-content .header-content-inner p {
 }
 
 /*Devicon size */
-.devicon-html5-plain {
-  font-size: 7rem;
-}
-
-.devicon-css3-plain {
-  font-size: 7rem;
-}
-
-.devicon-ruby-plain {
-  font-size: 7rem;
-}
-
-.devicon-javascript-plain {
-  font-size: 7rem;
-}
-
-.devicon-jquery-plain {
-  font-size: 7rem;
-}
-
-.devicon-rails-plain {
-  font-size: 7rem;
-}
-
-.devicon-nodejs-plain {
-  font-size: 7rem;
-}
-
-.devicon-express-original {
-  font-size: 7rem;
-}
-
-.devicon-react-plain {
-  font-size: 7rem;
-}
-
-.devicon-mongodb-plain {
-  font-size: 7rem;
-}
-
-.devicon-postgresql-plain {
-  font-size: 7rem;
-}
-
-.devicon-bootstrap-plain {
-  font-size: 7rem;
-}
-
-.devicon-sass-plain {
-  font-size: 7rem;
-}
-
-.devicon-git-plain {
-  font-size: 7rem;
-}
-
-.devicon-github-plain {
-  font-size: 7rem;
-}
-
-.devicon-heroku-plain {
+.devicon-html5-plain,
+.devicon-css3-plain,
+.devicon-ruby-plain,
+.devicon-javascript-plain,
+.devicon-jquery-plain,
+.devicon-rails-plain,
+.devicon-nodejs-plain,
+.devicon-react-plain,
+.devicon-mongodb-plain,
+.devicon-postgresql-plain,
+.devicon-bootstrap-plain,
+.devicon-sass-plain,
+.devicon-git-plain,
+.devicon-github-plain,
+.devicon-heroku-plain,
+.devicon-express-original,
+.devicon-amazonwebservices-original {
   font-size: 7rem;
 }
 
