@@ -1,29 +1,23 @@
 {
-  "name": "creative",
-  "title": "Creative",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/creative",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Gatsby site",
+  "author": "Daniel Macauyag",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
-  "devDependencies": {
-    "bootstrap": "4.4.1",
-    "browser-sync": "2.26.7",
-    "font-awesome": "4.6.3",
-    "gulp": "4.0.2",
-    "gulp-clean-css": "4.2.0",
-    "gulp-header": "1.8.7",
-    "gulp-less": "4.0.1",
-    "gulp-rename": "1.2.2",
-    "gulp-uglify": "1.5.4",
-    "jquery": "3.4.1",
-    "magnific-popup": "1.1.0",
-    "scrollreveal": "3.1.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+  "license": "0BSD",
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
